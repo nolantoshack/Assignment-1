@@ -1,7 +1,57 @@
 @media (min-width: 960px){
 
+    header {
+    text-align: left;
+    }
+
+    /*linear gradient*/
     body{
-        background-color: pink;
+        background: rgb(70, 70, 83); 
+        background: -moz-linear-gradient(left,rgb(89, 87, 167) 0%, rgb(70, 70, 83) 100%); 
+        background: -webkit-linear-gradient(left,rgb(89, 87, 167) 0%, rgb(70, 70, 83) 100%); 
+        background: -o-linear-gradient(left, rgb(89, 87, 167) 20%, rgb(70, 70, 83) 100%); 
+        background: linear-gradient(to right, rgb(89, 87, 167) 20%,rgb(70, 70, 83) 100%);
+        font-family: Verdana, Geneva, Arial, sans-serif;
+        padding: 0px;
+        margin: 0px;
+        color: white;
+    }
+
+    .project-item {
+    width: 360px;
+    background-color: rgb(32, 32, 51);
+    float: center;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    color: white;
+    padding: 16px;
+}
+
+    header
+    {
+    background-color: rgb(24, 23, 51);
+    color: white; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+
+
+    footer
+    {
+    background-color: rgb(24, 23, 51);
+    color: white; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    }
+
+    #wrapper {
+        width: 960px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(70, 70, 83);
+        color: white;
     }
 
 }
