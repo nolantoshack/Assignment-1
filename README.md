@@ -1,7 +1,7 @@
 # Assignment-1
 An assignment to make a website about yourself.
 Color scheme:
-![alt text](https://github.com/nolantoshack/Assignment-1/blob/main/Color_Scheme.jpg?raw=true)
+![alt text](https://github.com/nolantoshack/Assignment-1/blob/main/Color_Scheme.jpeg?raw=true)
 
 the <br> tag is used to break lines got it from this website
 https://www.w3schools.com/tags/tag_br.asp
