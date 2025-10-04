@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nolans Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="desktop.css"> <!-- Linked CSS file -->
-    <link rel="stylesheet"  type="text/css" href="tablet.css">
+    <link rel="stylesheet" type="text/css" href="desktop.css">
+    <link rel="stylesheet" type="text/css" href="tablet.css">
     <link rel="stylesheet" type="text/css" href="mobile.css">
 </head>
 <body>
@@ -23,20 +23,38 @@
             </ol>
         </nav>
     </header>
-<main>
 
+    <main>
         <!-- About Section -->
         <section id="about">
             <h1>Who I Am</h1>
+
+            <!-- Image Section -->
+            <figure>
+                <img src="Me.jpg" alt="A random selfie I took" width="600">
+                <figcaption>Photo of me</figcaption>
+            </figure>
+
+            <!-- Text Content -->
             <p id="first">This is the first paragraph</p>
             <p class="second">This is the second paragraph</p>
             <p class="second">This is the third paragraph</p>
         </section>
 
-         <!-- Footer -->
-    <footer id="customfooter">
-        <p>Copyright &copy; 2025 Nolan </p>
-        <p>Email @: nolan.toshack@ontariotechu.net</p>
-    </footer>
+        <!-- Video Section -->
+        <section id="intro-video">
+            <h2>Introduction Video</h2>
+            <video controls width="600">
+                <source src="intro_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
 
-</main>
+        <!-- Footer -->
+        <footer id="customfooter">
+            <p>Copyright &copy; 2025 Nolan </p>
+            <p>Email @: nolan.toshack@ontariotechu.net</p>
+        </footer>
+    </main>
+</body>
+</html>

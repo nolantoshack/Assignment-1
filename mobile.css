@@ -1,8 +1,45 @@
 @media (max-width: 480px) {
 
     body{
-        background-color: blue;
+        background-color: #282833; /* RGB 40, 40, 51 - solid color */
+        font-family: Verdana, Geneva, Arial, sans-serif;
+        padding: 0px;
+        margin: 0px;
+        color: white;
     }
 
+    header {
+        background-color: #181733; /* RGB 24, 23, 51 */
+        color: white; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #181733; /* RGB 24, 23, 51 */
+        color: white; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    .project-item {
+        width: 90%;
+        background-color: #202033; /* RGB 32, 32, 51 */
+        margin: 0 auto 16px auto;
+        color: white;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    #wrapper {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #282833; /* RGB 40, 40, 51 */
+        color: white;
+        padding: 10px;
+        box-sizing: border-box;
+    }
 
 }
